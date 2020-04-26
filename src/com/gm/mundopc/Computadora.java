@@ -6,7 +6,7 @@ public class Computadora {
     private Monitor monitor;
     private Teclado teclado;
     private Raton raton;
-    private int contadorComputadoras;
+    private static int contadorComputadoras;
 
     private Computadora(){
         idComputadora = ++contadorComputadoras;
@@ -50,5 +50,16 @@ public class Computadora {
 
     public void setRaton(Raton raton) {
         this.raton = raton;
+    }
+
+    @Override
+    public String toString() {
+        return "Computadora{" +
+                "idComputadora=" + idComputadora +
+                ", nombre='" + nombre + '\'' +
+                ", monitor=" + monitor +
+                ", teclado=" + teclado +
+                ", raton=" + raton +
+                '}';
     }
 }

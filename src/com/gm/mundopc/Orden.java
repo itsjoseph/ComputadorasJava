@@ -1,7 +1,7 @@
 package com.gm.mundopc;
 
 public class Orden {
-    private static int idOrden;
+    private final int idOrden;
     private Computadora computadoras[];
     private static int contadorOrdenes;
     private int contadorComputadoras;
@@ -12,7 +12,7 @@ public class Orden {
         computadoras = new Computadora[MAX_COMPUTADORAS];
     }
 
-    public void agregarComoputadoras(Computadora computadora) {
+    public void agregarComputadora(Computadora computadora) {
         if (contadorComputadoras < MAX_COMPUTADORAS) {
             computadoras[contadorComputadoras++] = computadora;
         } else {
@@ -20,7 +20,7 @@ public class Orden {
         }
     }
 
-    public void mostarOrden() {
+    public void mostrarOrden() {
         System.out.println("Orden #" + idOrden);
         for (int i = 0; i < contadorComputadoras; i++) {
             System.out.println(computadoras[i]);
