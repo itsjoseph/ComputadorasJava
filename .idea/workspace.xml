@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f24a3955-25b5-4b4e-8068-8e0136f2995e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoFinal/com/gm/mundopc/Orden.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoFinal/com/gm/mundopc/Orden.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoFinal/mundopc/Mundopc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoFinal/mundopc/Mundopc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gm/mundopc/Computadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gm/mundopc/Computadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gm/mundopc/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gm/mundopc/Orden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gm/mundopc/Raton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gm/mundopc/Raton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gm/mundopc/Teclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gm/mundopc/Teclado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mundopc/Mundopc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mundopc/Mundopc.java" afterDir="false" />
-    </list>
+    <list default="true" id="f24a3955-25b5-4b4e-8068-8e0136f2995e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
